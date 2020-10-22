@@ -1,0 +1,12 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deps": "npx concurrently --names \"server,client\" -c \"blue.bold,magenta.bold\" --prefix \"{name\"} \"cd server && rm -rf node_modules && npm install\" \"cd client && rm -rf node_modules && npm install\"",
+    "start": "npx concurrently --names \"server,client\" -c \"blue.bold,magenta.bold\" --prefix \"{name}\" \"cd server && npm run start\" \"cd client && sleep 3; npm run start:hmr\""
+  },
+  "author": "",
+  "license": "ISC"
+}

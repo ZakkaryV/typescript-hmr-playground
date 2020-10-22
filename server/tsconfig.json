@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "target": "es2019",
+    "module": "commonjs",
+    "outDir": "build",
+    "allowSyntheticDefaultImports": true
+  },
+  "types": "node",
+  "include": ["./index.ts"]
+}

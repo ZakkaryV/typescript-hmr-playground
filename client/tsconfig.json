@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2019"],
+    "module": "amd",
+    "outDir": "public/dist/",
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "include": ["./src/**/*.ts"]
+}

@@ -1,0 +1,8 @@
+client/node_modules/
+client/public/dist/
+server/node_modules/
+server/build/
+.tags
+.vim
+*.swp
+*.swo

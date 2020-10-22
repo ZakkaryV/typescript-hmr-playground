@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.9.0"
+  },
+  "scripts": {
+    "start": "npx tsc-watch --onCompilationComplete \"node ./build/index.js\" --noClear"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.2",
+    "@types/ws": "^7.2.7",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.0.3",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
