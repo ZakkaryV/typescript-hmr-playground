@@ -1,4 +1,4 @@
-# ts-playground
+# typescript-hmr-playground
 Lightweight boilerplate for toying with TypeScript. Useful for prototyping. 
 
 1. `npm run deps`
@@ -10,7 +10,6 @@ Lightweight boilerplate for toying with TypeScript. Useful for prototyping.
 * ghetto HMR in the browser
 * server auto-restarts on changes
 * source maps in the browser
-
 
 ## Todos
 * make server code decent
