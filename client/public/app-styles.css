@@ -1,0 +1,8 @@
+body {
+  background-color: whitesmoke;
+}
+
+#app-root {
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -7,13 +7,13 @@ Lightweight boilerplate for toying with TypeScript. Useful for prototyping.
 
 ## Features
 * TS on server / client
-* ghetto HMR in the browser
-* server auto-restarts on changes
+* rudimentary HMR: changes are reflected in the browser immediately upon save
+* server hot-reloads on change
 * source maps in the browser
 
 ## Todos
-* make server code decent
 * extract common deps to root 
-* make sourcemaps work properly
+* improve start time
+* hot-reloading for css files
+* html templating
 * test scaffolding
-* module bundling? 

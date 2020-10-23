@@ -7,7 +7,7 @@
     "node": ">=12.9.0"
   },
   "scripts": {
-    "start": "npx tsc-watch --onCompilationComplete \"node ./build/index.js\" --noClear"
+    "start": "npx tsc-watch --onCompilationComplete \"node ./build/server.js\" --noClear"
   },
   "author": "",
   "license": "ISC",

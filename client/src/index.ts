@@ -1,2 +1,5 @@
-const root = document.getElementById("app-root");
-root.innerHTML = "Hello world!";
+const root: Element = document.getElementById("app-root");
+const header: Element = document.createElement("pre");
+
+header.innerHTML = "Hello world!";
+root.appendChild(header);
